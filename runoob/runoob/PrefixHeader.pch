@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  runoob
+//
+//  Created by zhoubaitong on 2017/8/11.
+//  Copyright © 2017年 cckv. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIImageView+WebCache.h"
+#import "AFNetworking/AFNetworking.h"
+#import "TFHpple.h"
+#import "KVNetWorkCacheTool.h"
+
+#import "runoob-Swift.h"
+
+#import "WebViewJavascriptBridge.h"
+
+#import "JKDBModel.h"
+#import "homeItem.h"
+#import "currentReadModel.h"
+#import "UIView+YGCExtension.h"
+#import "UIImage+Extension.h"
+#import "collectModel.h"
+
+#import "homeMode.h"
+
+#import "detailViewController.h"
+
+#import "TimeTool.h"
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kBaseUrl @"http://www.runoob.com/"
+#define kInviteUrl @"http://www.runoob.com/w3cnote/runoob-user-test-intro.html#invite"
+
+#define homeItemCacheStr @"homeItemCache"
+#define currentReadUrl @"currentReadUrl"
+
+#define isFirstEnterApp @"isFirstEnterApp"
+#define firstEnterAppTime @"firstEnterAppTime"
+
+#define kNavigationHeight 64
+#define ktabBarHeight 49
+#define kMargin 10
+
+#endif /* PrefixHeader_pch */
